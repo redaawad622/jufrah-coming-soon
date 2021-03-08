@@ -34,7 +34,7 @@ document.getElementById('notfiy').addEventListener('submit', (e) => {
 	//send xhr request here
 	document.getElementById('email').value = '';
 });
-var MIN_WIDTH = 1200;
+var MIN_WIDTH = 1400;
 var viewport = document.createElement('meta');
 viewport.setAttribute('name', 'viewport');
 console.log(screen.width);
